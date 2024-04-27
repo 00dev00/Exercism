@@ -7,10 +7,13 @@ class RemoteControlCar
 
     public string DistanceDisplay() => $"Driven {Distance} meters";
 
-    public string BatteryDisplay() => RemainingBattery > 0 ? $"Battery at {RemainingBattery}%": "Battery empty";
+    public string BatteryDisplay() => RemainingBattery > 0 ?
+                                      $"Battery at {RemainingBattery}%" :
+                                      "Battery empty";
     public void Drive()
     {
-        if (RemainingBattery > 0) {
+        if (RemainingBattery > 0)
+        {
             Distance += 20;
             RemainingBattery -= 1;
         }
