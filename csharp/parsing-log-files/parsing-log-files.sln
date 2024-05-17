@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParsingLogFiles", "ParsingLogFiles.csproj", "{77362211-3028-49E9-B3AF-D5418ADC5573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77362211-3028-49E9-B3AF-D5418ADC5573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77362211-3028-49E9-B3AF-D5418ADC5573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77362211-3028-49E9-B3AF-D5418ADC5573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77362211-3028-49E9-B3AF-D5418ADC5573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA46890A-B329-43F6-9A33-73889ABC59B8}
+	EndGlobalSection
+EndGlobal
