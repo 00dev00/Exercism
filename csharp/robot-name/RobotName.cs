@@ -16,9 +16,8 @@ public static class RandomName
         string name;
         do
         {
-            int suffix = Random.Shared.Next(100, 999);
-            (char firstLetter, char secondLetter) = 
-                NamePool.Count() == 0 ? ('A', 'Z') : ((char)Random.Shared.Next(65, 90), (char)Random.Shared.Next(65, 90)); 
+            int suffix = Random.Shared.Next(100, 1000);
+            (char firstLetter, char secondLetter) = ((char)Random.Shared.Next(65, 91), (char)Random.Shared.Next(65, 91)); 
 
             name = $"{firstLetter}{secondLetter}{suffix}";
         } while (!NamePool.AddName(name));
@@ -32,5 +31,4 @@ public static class NamePool
     private readonly static HashSet<string> names = [];
     public static bool AddName(string name) => names.Add(name);
     public static bool RemoveName(string name) => names.Remove(name);
-    public static int Count() => names.Count;
 }
